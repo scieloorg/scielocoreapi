@@ -4,6 +4,9 @@ Use env var to override
 """
 import os
 
+from scielocore.config_lib_scielo_core import *
+
+
 ENV = os.getenv("FLASK_ENV")
 DEBUG = ENV == "development"
 SECRET_KEY = os.getenv("SECRET_KEY")
