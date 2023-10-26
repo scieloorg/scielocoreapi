@@ -13,3 +13,4 @@ apispec-webframeworks
 tox
 celery[redis]>=5.0.0
 gunicorn
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
